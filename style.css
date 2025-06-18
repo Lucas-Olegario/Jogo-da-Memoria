@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;   
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .grid img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(240, 190, 29);
+    color: black;
+  }
+  
